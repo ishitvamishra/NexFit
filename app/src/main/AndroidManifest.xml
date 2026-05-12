@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DemoUnit2">
+        <activity
+            android:name=".CustomText"
+            android:exported="false"
+            android:label="@string/title_activity_custom_text"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".PatientProfileScreen"
+            android:exported="false"
+            android:label="@string/title_activity_patient_profile_screen"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".Sem06Ca1"
+            android:exported="false"
+            android:label="@string/title_activity_sem06_ca1"
+            android:theme="@style/Theme.DemoUnit2">
+
+        </activity>
+        <activity
+            android:name=".PracticeQuestion"
+            android:exported="false"
+            android:label="@string/title_activity_practice_question"
+            android:theme="@style/Theme.DemoUnit2">
+        </activity>
+        <activity
+            android:name=".Intent_demo_"
+            android:exported="false"
+            android:label="@string/title_activity_intent_demo"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".Spinnner"
+            android:exported="false"
+            android:label="@string/title_activity_spinnner"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".GridPractice"
+            android:exported="false"
+            android:label="@string/title_activity_grid_practice"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".ListPractice"
+            android:exported="false"
+            android:label="@string/title_activity_list"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Question6"
+            android:exported="false"
+            android:label="Question6"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".AllowPermission"
+            android:exported="false"
+            android:label="AllowPermission"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".Intent_Demo_06"
+            android:exported="false"
+            android:label="@string/title_activity_intent_demo06"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".PendingIntentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pending_intent"
+            android:theme="@style/Theme.DemoUnit2">
+        </activity>
+        <activity
+            android:name=".MenuApp"
+            android:exported="false"
+            android:label="@string/title_activity_menu_app"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".RatingBar"
+            android:exported="false"
+            android:label="@string/title_activity_rating_bar"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".ProgressBar"
+            android:exported="false"
+            android:label="@string/title_activity_progress_bar"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".LifeCycleDemo"
+            android:exported="false"
+            android:label="@string/title_activity_life_cycle_demo"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".DetailsScreen"
+            android:exported="false"
+            android:label="@string/title_activity_details_screen"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".ETEIMPLEMENTATION"
+            android:exported="false"
+            android:label="@string/title_activity_eteimplementation"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".MultiLingual"
+            android:exported="false"
+            android:label="@string/title_activity_multi_lingual"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".display_screen"
+            android:exported="false"
+            android:label="@string/title_activity_display_screen"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".CA_2"
+            android:exported="false"
+            android:label="@string/title_activity_ca2"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name="NavContainer.Controller"
+            android:exported="false"
+            android:label="@string/title_activity_controller"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".TopActionBar"
+            android:exported="false"
+            android:label="@string/title_activity_top_action_bar"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".BottomBarNavigation"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_bar_navigation"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name="NavContainer.NavControllerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_nav_control_data_passing"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name="NewActivity.LinkActivity"
+            android:exported="false"
+            android:label="@string/title_activity_link"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name="MoviePageDemo.MovieController"
+            android:exported="false"
+            android:label="@string/title_activity_movie_controller"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".SecondScreen"
+            android:exported="false"
+            android:label="@string/title_activity_second_screen"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".FirstScreen"
+            android:exported="false"
+            android:label="@string/title_activity_first_screen"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".NavigatingPage"
+            android:exported="false"
+            android:label="@string/title_activity_navigating_page"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".LoginNavController"
+            android:exported="false"
+            android:label="@string/title_activity_login_nav_controller"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Intent_demo"
+            android:exported="false" />
+        <activity
+            android:name=".SliderActivity"
+            android:exported="false"
+            android:label="@string/title_activity_slider"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".Box_Demo"
+            android:exported="false"
+            android:label="@string/title_activity_box_demo"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".Checkbox"
+            android:exported="false"
+            android:label="@string/title_activity_checkbox"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".LoginForm"
+            android:exported="false"
+            android:label="@string/title_activity_login_form"
+            android:theme="@style/Theme.DemoUnit2" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DemoUnit2" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".SecondPIntent"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

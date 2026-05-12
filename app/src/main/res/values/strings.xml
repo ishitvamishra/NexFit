@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">DemoUnit2</string>
+    <string name="login_title">Login</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+
+    <!-- Existing strings -->
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="hello_user">Hello, %s</string>
+    <plurals name="item_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <string name="title_activity_login_form">LoginForm</string>
+    <string name="title_activity_checkbox">Checkbox</string>
+    <string name="title_activity_box_demo">Box_Demo</string>
+    <string name="title_activity_slider">SliderActivity</string>
+    <string name="title_activity_login_nav_controller">LoginNavController</string>
+    <string name="title_activity_navigating_page">NavigatingPage</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_first_screen">FirstScreen</string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+    <string name="title_activity_nav_controller">NavController</string>
+    <string name="title_activity_movie_controller">MovieController</string>
+    <string name="title_activity_link">LinkActivity</string>
+    <string name="title_activity_nav_control_data_passing">NavControlDataPassing</string>
+    <string name="title_activity_nav_data_transfer">NavDataTransfer</string>
+    <string name="title_activity_bottom_bar_navigation">BottomBarNavigation</string>
+    <string name="title_activity_top_action_bar">TopActionBar</string>
+    <string name="title_activity_controller">Controller</string>
+    <string name="title_activity_ca2">CA2</string>
+    <string name="title_activity_display_screen">display_screen</string>
+    <string name="title_activity_multi_lingual">MultiLingual</string>
+    <string name="title_activity_eteimplementation">ETEIMPLEMENTATION</string>
+    <string name="title_activity_details_screen">DetailsScreen</string>
+    <string name="title_activity_life_cycle_demo">LifeCycleDemo</string>
+    <string name="title_activity_progress_bar">ProgressBar</string>
+    <string name="title_activity_rating_bar">RatingBar</string>
+    <string name="title_activity_nex_fit">NexFit</string>
+    <string name="title_activity_menu_app">MenuApp</string>
+    <string name="title_activity_intent_demo06">Intent_Demo_06</string>
+    <string name="title_activity_pending_intent">PendingIntent</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_grid_practice">GridPractice</string>
+    <string name="title_activity_spinnner">Spinnner</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_intent_demo">Intent_demo_</string>
+    <string name="title_activity_second_pintent">SecondPIntent</string>
+    <string name="title_activity_practice_question">PracticeQuestion</string>
+    <string name="title_activity_sem06_ca1">Sem06Ca1</string>
+    <string name="title_activity_patient_profile_screen">PatientProfileScreen</string>
+    <string name="title_activity_ca1_sem6">CA1SEM6</string>
+    <string name="title_activity_custom_text">CustomText</string>
+</resources>

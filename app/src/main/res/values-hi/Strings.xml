@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_title">लॉगिन स्क्रीन</string>
+    <string name="email_label">ईमेल पता</string>
+    <string name="email_hint">अपना ईमेल दर्ज करें</string>
+    <string name="password_label">पासवर्ड</string>
+    <string name="password_hint">अपना पासवर्ड दर्ज करें</string>
+    <string name="login_button">लॉगिन करें</string>
+    <string name="signup_button">साइन अप करें</string>
+</resources>

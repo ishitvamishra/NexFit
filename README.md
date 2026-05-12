@@ -46,11 +46,11 @@ Built as a solution aligned with **Smart India Hackathon (SIH25129) – Fitness 
 
 # 📱 Screenshots
 
-_Add your app screenshots here_
-
-| Dashboard | Workout Logger | Diet Planner |
-|------------|----------------|--------------|
-| Screenshot | Screenshot | Screenshot |
+<p align="center">
+  <img src="screenshots/HomeScreen.jpeg" width="250"/>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/WorkoutLoggerScreen.jpeg" width="250"/>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/DietScreen.jpeg" width="250"/>
+</p>
 
 ---
 
